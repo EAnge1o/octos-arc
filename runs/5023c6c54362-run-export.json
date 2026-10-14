@@ -6210,7 +6210,7 @@
           "timestamp": "2026-09-18 07:30:12",
           "stage": "Running agent",
           "status": "info",
-          "summary": "WuxieLUK <arcbench@example.com>",
+          "summary": "EAnge1o <arcbench@example.com>",
           "heartbeat": false,
           "artifact_reference": null
         },
@@ -24527,7 +24527,7 @@
         "Still working: Launching generation agent",
         "Still working: Launching generation agent",
         "Still working: Launching generation agent",
-        "WuxieLUK <arcbench@example.com>",
+        "EAnge1o <arcbench@example.com>",
         "Still working: Launching generation agent",
         "design folded into the implementation turn (no JSON file)",
         ");\n    return;\n  }\n\n  fs.stat(filePath, (err, stats) => {\n    if (err || !stats.isFile()) {\n      res.writeHead(404);\n      res.end('Not Found');\n      return;\n    }\n\n    const ext = path.extname(filePath).toLowerCase();\n    const contentType = MIME_TYPES[ext] || 'application/octet-stream';\n    res.writeHead(200, { 'Content-Type': contentType });\n    fs.createReadStream(filePath).pipe(res);\n  });\n});\n\nserver.listen(PORT, () => {\n  console.log(`Server running on port ${PORT}`);\n});\n<<<END FILE>>>",

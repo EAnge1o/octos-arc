@@ -83,7 +83,7 @@ examples/                # 模型调用与 SDK 示例
 ## 快速开始
 
 ```bash
-git clone https://github.com/WuxieLUK/octos-arc.git
+git clone https://github.com/EAnge1o/octos-arc.git
 cd octos-arc
 python3 -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
@@ -122,7 +122,7 @@ Runner 至少注入以下环境变量：
 | `runs/12306-stdout.log` | `arc-bench-web--12306` | 12306 那次 run 的完整 runner + agent 标准输出日志 |
 ## 后续
 
-- 初赛（09-24 ~ 09-30）之后，10.01 起的新一轮演进与全部 bundle 见 [`WuxieLUK/arcbench-agent-journey`](https://github.com/WuxieLUK/arcbench-agent-journey)。
-- 9 月以来的完整复盘见 `WuxieLUK/arc-bench-hackathon-review`（私有）。
+- 初赛（09-24 ~ 09-30）之后，10.01 起的新一轮演进与全部 bundle 见 [`EAnge1o/arcbench-agent-journey`](https://github.com/EAnge1o/arcbench-agent-journey)。
+- 9 月以来的完整复盘见 `EAnge1o/arc-bench-hackathon-review`（私有）。
 
 > 所有成绩以 ARC-Bench 官方最终结果为准；本仓库只记录初赛前测试阶段的本地复现过程。

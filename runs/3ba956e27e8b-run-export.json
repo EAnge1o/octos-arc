@@ -1958,7 +1958,7 @@
           "timestamp": "2026-09-19 14:03:29",
           "stage": "Running agent",
           "status": "info",
-          "summary": "WuxieLUK <arcbench@example.com>",
+          "summary": "EAnge1o <arcbench@example.com>",
           "heartbeat": false,
           "artifact_reference": null
         },
@@ -7556,7 +7556,7 @@
         "Still working: Launching generation agent",
         "Still working: Launching generation agent",
         "Still working: Launching generation agent",
-        "WuxieLUK <arcbench@example.com>",
+        "EAnge1o <arcbench@example.com>",
         "Still working: Launching generation agent",
         "design folded into the implementation turn (no JSON file)",
         "if (err) {\n        res.writeHead(500, { 'Content-Type': 'text/plain' });\n        res.end('Internal Server Error');\n        return;\n      }\n      res.writeHead(200, { 'Content-Type': contentType });\n      res.end(content);\n    });\n  } catch (error) {\n    // Unexpected error\n    console.error(error);\n    res.writeHead(500, { 'Content-Type': 'text/plain' });\n    res.end('Internal Server Error');\n  }\n});\n\nserver.listen(PORT, () => {\n  console.log(`Server running on port ${PORT}`);\n});\n<<<END FILE>>>",
